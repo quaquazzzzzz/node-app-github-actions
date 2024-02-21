@@ -34,4 +34,4 @@ jobs:
           remote_path: /var/www/my-app/
           remote_host: 18.193.33.208
           remote_user: ubuntu
-          remote_key: "${{ secrets.SSH_PRIVATE_KEY }}"
+          remote_key: "${{ secrets.AWSSESSIONTOKEN }}"
